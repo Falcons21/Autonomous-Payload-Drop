@@ -14,6 +14,7 @@ Matlab based Trajectory Simulation of the Actual Code that will run on Data Acqu
 #### Matlab Terminal
 <img src="out-result.png" width=330 height=364 align="center">
 
+#### Ouput Graph
 <img src="out-graph.png" width=414 height=340 align="center">
 
 
