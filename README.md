@@ -4,9 +4,9 @@ Matlab based Trajectory Simulation of the Actual Code that will run on Data Acqu
 
 * Drag values for Howlers and Water Bottles (Supply Payloads) were computed using Computational Fluid Dynamics.
 
-![Howlers](howler_cfd_animation.gif = 600x305)
+<img src="howler_cfd_animation.gif" width=600 height=305>
 
-![Water Bottles](bottle_cfd_animation.gif = 600x305)
+<img src="bottle_cfd_animation.gif" width=600 height=305>
 
 * Drag Coefficients (Cd) for the respective payloads were calcualted using Drag Equation.
 * Calculated values along with Airspeed, Average Wind Speed (in Lakeland, Florida) were added to the matlab code.
