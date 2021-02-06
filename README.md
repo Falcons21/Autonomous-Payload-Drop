@@ -1,6 +1,6 @@
 # Autonomous-Payload-Drop
 
-Matlab based Trajectory Simulation of the Actual Code that will run on Data Acqusition System onboard the Primary Aircraft.
+Matlab based Trajectory Simulation of the Actual Code that will run on Data Acquisition System onboard the Primary Aircraft.
 
 * Drag values for Howlers and Water Bottles (Supply Payloads) were computed using Computational Fluid Dynamics.
 
@@ -12,8 +12,8 @@ Matlab based Trajectory Simulation of the Actual Code that will run on Data Acqu
 <img src="bottle_cfd_animation.gif" width=600 height=305 align="center">
 </p>
 
-* Drag Coefficients (Cd) for the respective payloads were calcualted using Drag Equation.
-* Calculated values along with Airspeed, Average Wind Speed (in Lakeland, Florida) were added to the matlab code.
+* Drag Coefficients (Cd) for the respective payloads were calculated using Drag Equation.
+* Calculated values along with Airspeed, Average Wind Speed (in Lakeland, Florida) were added to the Matlab code.
 
 #### Matlab Terminal
 <p align="center">
