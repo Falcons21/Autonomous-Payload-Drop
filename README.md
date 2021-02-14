@@ -15,16 +15,6 @@ Matlab based Trajectory Simulation of the Actual Code that will run on Data Acqu
 * Drag Coefficients (Cd) for the respective payloads were calculated using Drag Equation.
 * Calculated values along with Airspeed, Average Wind Speed (in Lakeland, Florida) were added to the Matlab code.
 
-#### Matlab Terminal
-<p align="center">
-<img src="out-result.png" width=330 height=364 align="center">
-</p>
-
-#### Ouput Graph
-<p align="center">
-<img src="out-graph.png" width=414 height=340 align="center">
-</p>
-
 Reference:
 
 Neelay Doshi (2020). Trajectory of a Dropped Payload (https://www.mathworks.com/matlabcentral/fileexchange/61107-trajectory-of-a-dropped-payload), MATLAB Central File Exchange. Retrieved December 29, 2020.
