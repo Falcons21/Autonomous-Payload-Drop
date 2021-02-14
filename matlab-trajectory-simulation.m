@@ -26,8 +26,8 @@ if payload_type == 'Both'
     Vpa = input('Enter crusing velocity in m/s: '); 
     Vag = input('Enter the velocity of wind wrt to ground in m/s: ');
     angle = input('Enter the angle of Vag in degrees: ');
-    [range_howler, R_howler, H_howler] = CalTrajectory('Howlers', Cd_Howler, A, m, H, ty, Vy, Dy, dy, acc, k, int, rho, g, Vpa, Vag, angle);
-    [range_bottle, R_bottle, H_bottle] = CalTrajectory('Water Bottles', Cd_Bottle, A, m, H, ty, Vy, Dy, dy, acc, k, int, rho, g, Vpa, Vag, angle);
+    [range_howler, R_howler, H_howler] = CalTrajectory('Howlers', Cd_Howler, A, m_howler, H, ty, Vy, Dy, dy, acc, k, int, rho, g, Vpa, Vag, angle);
+    [range_bottle, R_bottle, H_bottle] = CalTrajectory('Water Bottles', Cd_Bottle, A, m_bottle, H, ty, Vy, Dy, dy, acc, k, int, rho, g, Vpa, Vag, angle);
     range_final = ((range_bottle*bottle_num) + (range_howler*howler_num))/(bottle_num+howler_num);
     disp('-------------------------------');
     fprintf('Combined Range of payload= %2.7f feet \n', range_final);
