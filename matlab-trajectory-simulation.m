@@ -1,4 +1,4 @@
-%Trajectory of Payload Dorpped by Team Assailing Falcons
+%Trajectory of Payload Dropped by Team Assailing Falcons
 clc
 clear all
 format short g
@@ -7,8 +7,9 @@ g = 9.81;        %acceleration due to gravity
 Cd_Howler = 0.1055;        %drag coefficient of Howler
 Cd_Bottle = 0.147;         %drag coefficient of Bottle
 rho = 1.225;     %density of air
-A = 0.02;        %average cross section of the payload
-m = 1;           %mass of the payload
+A = 4.2;        %average cross section of the payload
+m_bottle = 624;           %mass of the water bottle
+m_howler = 127;           %mass of the howler
 H(1) = input('Enter the height of the plane in meters: ');
 ty(1) = 0;       %duration of fall
 Vy(1) = 0;       %velocity in downward direction
